@@ -5,10 +5,13 @@ import ro.avrmeduard.contactlist.model.Company;
 import ro.avrmeduard.contactlist.model.PhoneNumber;
 import ro.avrmeduard.contactlist.model.User;
 
-
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
 import java.sql.*;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.*;
 
 public class DBUserService implements UserService{
@@ -289,9 +292,63 @@ public class DBUserService implements UserService{
 
     }
 
+    public void backUpContacts() {
+        String path = "backUpFile" + File.separator;
+        ZoneId ro = ZoneId.of("Europe/Bucharest");
+
+        try {
+            File source = new File("Contacts.txt");
+            File dest = new File(path + LocalDateTime.now(ro));
+            Files.copy(source.toPath(), dest.toPath());
+        }catch (IOException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void removeContact(int userId) {
 
+
+        // daca gasim contactul , backup, sleep, delete
+        PreparedStatement pstmtContactDelete = null;
+
+        if (getContactById(userId) != null) {
+
+            // back up contacts before deleting a user
+            backUpContacts();
+            try {
+                Thread.sleep(500);
+
+                try {
+                    connection.setAutoCommit(false);
+                    String deleteContact = "DELETE u, ph, a, co, a_w " +
+                            "FROM users AS u" +
+                            "INNER JOIN phonenumbers AS ph ON u.user_id = ph.user_id" +
+                            "INNER JOIN addresses AS a ON u.address_id = a.id " +
+                            "INNER JOIN companies AS co ON u.company_id = co.company_id" +
+                            "INNER JOIN addresses AS a_w ON co.address_id = a_w.id" +
+                            "WHERE u.user_id = ?;";
+
+                    pstmtContactDelete = connection.prepareStatement(deleteContact);
+                    pstmtContactDelete.setInt(1, userId);
+
+                    int rowAffected = pstmtContactDelete.executeUpdate();
+
+                    System.out.println(rowAffected + "Rows affected.");
+                    connection.commit();
+
+                } catch (SQLException e) {
+                    System.out.println(e.getMessage());
+                    e.printStackTrace();
+                } finally {
+                    if (pstmtContactDelete != null) pstmtContactDelete.close();
+                }
+            } catch (InterruptedException | SQLException e) {
+                e.printStackTrace();
+                System.out.println(e.getMessage());
+            }
+        }  // end of if condition
     }
 
     @Override
