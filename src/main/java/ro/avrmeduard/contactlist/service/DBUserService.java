@@ -34,13 +34,13 @@ public class DBUserService implements UserService{
             pass = properties.getProperty("db.password");
 
         } catch (IOException e) {
-            System.out.println("Wrong input data connection \n" + e);
+            System.out.println("Wrong input data connection \n" + e.getMessage());
         }
 
         try {
             connection = DriverManager.getConnection(url+timeZone, user, pass);
         } catch (SQLException e) {
-            System.out.println("Open connection failed \n" + e);
+            System.out.println("Open connection failed \n" + e.getMessage());
         }
 
         System.out.println("Connection succeed. \n");
