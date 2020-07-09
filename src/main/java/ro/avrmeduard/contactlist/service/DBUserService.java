@@ -179,6 +179,109 @@ public class DBUserService implements UserService{
     @Override
     public void addContact(User contact) {
 
+        List <User> u = new ArrayList <>();
+        u.add(contact);
+
+//        contact.setUserID(null);
+        PreparedStatement pstmtContact = null;
+        PreparedStatement pstmtPhone = null;
+        PreparedStatement pstmtAddress = null;
+        PreparedStatement pstmtCompany = null;
+
+        //for getting contact user id
+        ResultSet rsId = null;
+
+        try {
+            for (User user : u) {
+
+                connection.setAutoCommit(false);
+                String sqlUsers = "INSERT INTO users(user_id, first_name, last_name, email, age, job_title, is_favorite)"
+                        + "VALUES (DEFAULT, ?, ?, ?, ?, ?, ?)";
+                pstmtContact = connection.prepareStatement(sqlUsers , Statement.RETURN_GENERATED_KEYS);
+
+                pstmtContact.setString(1 , user.getFirstName());
+                pstmtContact.setString(2 , user.getLastName());
+                pstmtContact.setString(3 , user.getEmail());
+                pstmtContact.setInt(4 , user.getAge());
+                pstmtContact.setString(5 , user.getJobTitle());
+                pstmtContact.setBoolean(6 , user.isFavorite());
+
+                int rowAffected = pstmtContact.executeUpdate();
+
+                //get user id
+                rsId = pstmtContact.getGeneratedKeys();
+                int userId = 0;
+                if (rsId.next()) userId = rsId.getInt(1);
+
+                if (rowAffected == 1) {
+                    String sqlPhone = "INSER INTO phonenumbers(user_id, country_code, number, place)"
+                            + "VALUES (?, ?, ?, ?)";
+                    pstmtPhone = connection.prepareStatement(sqlPhone);
+
+                    // insert phone number
+                    for (Map.Entry <String, PhoneNumber> entry : user.getPhoneNumbers().entrySet()) {
+                        pstmtPhone.setInt(1 , userId);
+
+                        pstmtPhone.setString(2 , entry.getValue().getCountryCode());
+                        pstmtPhone.setString(3 , entry.getValue().getNumber());
+                        pstmtPhone.setString(4 , entry.getKey());
+
+                        pstmtPhone.executeUpdate();
+                    }
+
+                    // insert home address
+                    String sqlAddress = "INSERT INTO address(street_name, street_number, apartment_number, floor, zip_code, city, country)"
+                            + "VALUES (?, ?, ? ,? ,? ,? ,?)";
+                    pstmtAddress = connection.prepareStatement(sqlAddress);
+                    pstmtAddress.setString(1 , user.getAddress().getStreetName());
+                    pstmtAddress.setInt(2 , user.getAddress().getStreetNumber());
+                    pstmtAddress.setInt(3 , user.getAddress().getApartmentNumber());
+                    pstmtAddress.setString(4 , user.getAddress().getFloor());
+                    pstmtAddress.setString(5 , user.getAddress().getZipCode());
+                    pstmtAddress.setString(6 , user.getAddress().getCity());
+                    pstmtAddress.setString(7 , user.getAddress().getCountry());
+                    pstmtAddress.executeUpdate();
+
+
+                    // insert company address
+                    String sqlCompany = "INSERT INTO companies(company_name, address_id)"
+                            + "VALUES (?, DEFAULT);"
+                            + "INSERT INTO addresses(street_name, street_number, apartment_number, floor, zip_code, city, country, id)"
+                            + "VALUES (?, ?, ? ,? ,? ,? ,?, LAST_INSERT_ID())";
+                    pstmtCompany = connection.prepareStatement(sqlCompany);
+                    pstmtCompany.setString(1 , user.getCompany().getName());
+                    pstmtCompany.setString(2 , user.getCompany().getAddress().getStreetName());
+                    pstmtCompany.setInt(3 , user.getCompany().getAddress().getStreetNumber());
+                    pstmtCompany.setInt(4 , user.getCompany().getAddress().getApartmentNumber());
+                    pstmtCompany.setString(5 , user.getCompany().getAddress().getFloor());
+                    pstmtCompany.setString(6 , user.getCompany().getAddress().getZipCode());
+                    pstmtCompany.setString(7 , user.getCompany().getAddress().getCity());
+                    pstmtCompany.setString(8 , user.getCompany().getAddress().getCountry());
+                    pstmtCompany.executeUpdate();
+
+                    connection.commit();
+                } else {
+                    connection.rollback();
+                }
+            }
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        } finally {
+
+            try {
+                if (rsId != null) rsId.close();
+                if (pstmtContact != null) pstmtContact.close();
+                if (pstmtPhone != null) pstmtPhone.close();
+                if (pstmtAddress != null) pstmtAddress.close();
+                if (pstmtCompany != null) pstmtCompany.close();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+
+        }
+
     }
 
     @Override
