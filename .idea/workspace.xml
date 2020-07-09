@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/UtilsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/db/connection/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/PhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/PhoneNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBPreparedStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/UtilsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/UtilsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594314611032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1594314955107</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314955107</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Utils Service Classes created">
+      <created>1594314999939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314999939</updated>
+    </task>
+    <task id="LOCAL-00009" summary="method to create a list of contact strings from a list of users">
+      <created>1594315133117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594315133117</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,7 +159,9 @@
     <MESSAGE value="update delete package" />
     <MESSAGE value="update delete DB class statement" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Utils Service Classes created" />
+    <MESSAGE value="method to create a list of contact strings from a list of users" />
+    <option name="LAST_COMMIT_MESSAGE" value="method to create a list of contact strings from a list of users" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1592584082251">
@@ -159,10 +172,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="368" y="42" key="CommitChangelistDialog2" timestamp="1594315111676">
+    <state x="368" y="42" key="CommitChangelistDialog2" timestamp="1594315132699">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="368" y="42" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594315111676" />
+    <state x="368" y="42" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594315132699" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594315111743">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -215,10 +228,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594315009960">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594315150512">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594315009960" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594315150512" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>

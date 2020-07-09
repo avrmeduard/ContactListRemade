@@ -3,6 +3,9 @@ package ro.avrmeduard.contactlist.utils;
 import ro.avrmeduard.contactlist.model.PhoneNumber;
 import ro.avrmeduard.contactlist.model.User;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -37,4 +40,27 @@ public class UtilsService {
         return userInLine;
     }
 
+    public static void writeToFile(List<String> stringList) {
+
+        BufferedWriter out = null;
+        try {
+            // the second parameter append set to false,
+            // will overwrite the file (clear it and write to it again).
+            out = new BufferedWriter(new FileWriter("Contacts.txt" , false));
+
+            for (String s : stringList) {
+                out.write(s + System.lineSeparator());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                assert out != null;
+                out.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
 }
