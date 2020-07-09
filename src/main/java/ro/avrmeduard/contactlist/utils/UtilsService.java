@@ -118,4 +118,31 @@ public class UtilsService {
 
         }
     }
+
+    public static List<User> readFromFile() {
+
+        List<String> stringUsers = new ArrayList <>();
+
+        BufferedReader bf = null;
+        try {
+
+            bf = new BufferedReader(new FileReader("contatsFile.txt"));
+            String currentLine = bf.readLine();
+
+            while(currentLine  != null ) {
+                stringUsers.add(currentLine);
+                currentLine = bf.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if(bf != null) bf.close();
+            } catch (IOException e) {
+                e.printStackTrace(); }
+        }
+
+        return userList(stringUsers);
+    }
+
 }
