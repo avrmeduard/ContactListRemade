@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/UtilsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/DBPreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/db/connection/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/PhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/PhoneNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBPreparedStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +125,30 @@
       <option name="project" value="LOCAL" />
       <updated>1594314531215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update delete DB class statement">
+      <created>1594314599912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314599912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1594314611032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314611032</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="mysql-connector-java -  update to 8.0.16" />
     <MESSAGE value="deleting a DBConnection package.  Connect to db from constructor when initialize it" />
     <MESSAGE value="update delete package" />
-    <option name="LAST_COMMIT_MESSAGE" value="update delete package" />
+    <MESSAGE value="update delete DB class statement" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1592584082251">
@@ -135,10 +159,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="279" y="43" key="CommitChangelistDialog2" timestamp="1594314599748">
+    <state x="279" y="43" key="CommitChangelistDialog2" timestamp="1594314610906">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="279" y="43" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594314599748" />
+    <state x="279" y="43" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594314610906" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1593499946954">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -191,10 +215,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594314550983">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594314909484">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594314550983" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594314909484" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
