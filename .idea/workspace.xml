@@ -186,7 +186,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594315835735</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="remove contact statement to update the db">
+      <created>1594316010355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594316010355</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1594316040352</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594316040352</updated>
+    </task>
+    <task id="LOCAL-00017" summary="exception e.getMessage() added">
+      <created>1594316307257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594316307257</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,9 +221,11 @@
     <MESSAGE value="utils service methods" />
     <MESSAGE value="convert string list to users list" />
     <MESSAGE value="read from a file text and return it a user list" />
-    <MESSAGE value="update" />
     <MESSAGE value="add contact statement to create new user in db" />
-    <option name="LAST_COMMIT_MESSAGE" value="add contact statement to create new user in db" />
+    <MESSAGE value="remove contact statement to update the db" />
+    <MESSAGE value="update" />
+    <MESSAGE value="exception e.getMessage() added" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception e.getMessage() added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1592584082251">
@@ -213,10 +236,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="368" y="42" key="CommitChangelistDialog2" timestamp="1594316009704">
+    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594316307044">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="368" y="42" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594316009704" />
+    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594316307044" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594315111743">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -269,10 +292,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594316032757">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594316441548">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594316032757" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594316441548" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
