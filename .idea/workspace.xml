@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/DBUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/DBUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594315628194</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1594315718414</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594315718414</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add contact statement to create new user in db">
+      <created>1594315835735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594315835735</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,14 +194,15 @@
     <MESSAGE value="deleting a DBConnection package.  Connect to db from constructor when initialize it" />
     <MESSAGE value="update delete package" />
     <MESSAGE value="update delete DB class statement" />
-    <MESSAGE value="update" />
     <MESSAGE value="Utils Service Classes created" />
     <MESSAGE value="method to create a list of contact strings from a list of users" />
     <MESSAGE value="method to write to a file from a list of strings/userContacts" />
     <MESSAGE value="utils service methods" />
     <MESSAGE value="convert string list to users list" />
     <MESSAGE value="read from a file text and return it a user list" />
-    <option name="LAST_COMMIT_MESSAGE" value="read from a file text and return it a user list" />
+    <MESSAGE value="update" />
+    <MESSAGE value="add contact statement to create new user in db" />
+    <option name="LAST_COMMIT_MESSAGE" value="add contact statement to create new user in db" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1592584082251">
@@ -197,10 +213,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="368" y="42" key="CommitChangelistDialog2" timestamp="1594315628013">
+    <state x="368" y="42" key="CommitChangelistDialog2" timestamp="1594316009704">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="368" y="42" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594315628013" />
+    <state x="368" y="42" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594316009704" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594315111743">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -253,10 +269,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594315709548">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594316032757">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594315709548" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594316032757" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
