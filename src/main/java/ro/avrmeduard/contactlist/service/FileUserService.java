@@ -54,6 +54,7 @@ public class FileUserService implements UserService {
     @Override
     public void removeContact(int userId) {
 
+        contacts.remove(getContactById(userId));
     }
 
     @Override
