@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
+    <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="getContact method added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/FileUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/FileUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/UtilsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/UtilsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +222,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594402294229</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="File user service class implements interface UserService">
+      <created>1594402355036</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594402355036</updated>
+    </task>
+    <task id="LOCAL-00021" summary="constructor added">
+      <created>1594402770151</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594402770151</updated>
+    </task>
+    <task id="LOCAL-00022" summary="getContact method added">
+      <created>1594403097380</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594403097380</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,7 +263,10 @@
     <MESSAGE value="exception e.getMessage() added" />
     <MESSAGE value="write to file added at the end to getContacts method." />
     <MESSAGE value="File user service class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="File user service class added" />
+    <MESSAGE value="File user service class implements interface UserService" />
+    <MESSAGE value="constructor added" />
+    <MESSAGE value="getContact method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="getContact method added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1594402322214">
@@ -252,10 +277,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594402293789">
+    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594403463297">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594402293789" />
+    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594403463297" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594315111743">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -308,10 +333,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594402327007">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594403477359">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594402327007" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594403477359" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
