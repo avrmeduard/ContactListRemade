@@ -9,6 +9,7 @@ import ro.avrmeduard.contactlist.utils.UtilsService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 public class FileUserService implements UserService {
 
@@ -59,7 +60,18 @@ public class FileUserService implements UserService {
 
     @Override
     public List <User> search(String query) {
-        return null;
+        List<String> result = new ArrayList<>();
+        String regex = ".*" + query + ".*";
+
+        for (String user : UtilsService.contactToString(contacts)) {
+            boolean matches = Pattern.matches(regex, user);
+            if (matches) {
+                result.add(user);
+            }
+        }
+        // convert list of string to a list of users
+        //return a list of users
+        return UtilsService.userList(result);
     }
 
 
