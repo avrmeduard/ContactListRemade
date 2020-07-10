@@ -5,13 +5,30 @@ import ro.avrmeduard.contactlist.model.Company;
 import ro.avrmeduard.contactlist.model.PhoneNumber;
 import ro.avrmeduard.contactlist.model.User;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class FileUserService implements UserService {
+
+    private boolean quit;
+
+    private File contactsFile;
+    private List <User> contacts = new ArrayList <>();
+
+
+    public FileIUserService(File contactsFile) {
+        this.contactsFile = contactsFile;
+    }
+
+    public FileIUserService(String contactsFileName) {
+        this(new File(contactsFileName));
+    }
+
     @Override
     public List <User> getContacts() {
-        return null;
+       return null;
     }
 
     @Override
@@ -38,4 +55,6 @@ public class FileUserService implements UserService {
     public List <User> search(String query) {
         return null;
     }
+
+
 }
