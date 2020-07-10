@@ -4,6 +4,7 @@ import ro.avrmeduard.contactlist.model.Address;
 import ro.avrmeduard.contactlist.model.Company;
 import ro.avrmeduard.contactlist.model.PhoneNumber;
 import ro.avrmeduard.contactlist.model.User;
+import ro.avrmeduard.contactlist.utils.UtilsService;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -28,7 +29,12 @@ public class FileUserService implements UserService {
 
     @Override
     public List <User> getContacts() {
-       return null;
+        // check if contacts is empty
+        if(contacts.isEmpty()) {
+            contacts.addAll(UtilsService.readFromFile());
+        }
+        // else return the curent list of contacts
+        return contacts;
     }
 
     @Override
