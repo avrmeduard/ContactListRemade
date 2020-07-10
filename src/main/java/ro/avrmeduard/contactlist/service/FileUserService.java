@@ -39,7 +39,7 @@ public class FileUserService implements UserService {
 
     @Override
     public User getContactById(int userId) {
-        return null;
+        return contacts.stream().filter(u -> u.getUserID() == userId).findFirst().get();
     }
 
     @Override
