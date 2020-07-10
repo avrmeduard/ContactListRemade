@@ -213,6 +213,10 @@ public class DBUserService implements UserService{
                 pstmtContact.setString(5 , user.getJobTitle());
                 pstmtContact.setBoolean(6 , user.isFavorite());
 
+
+                //TODO
+                // BUGGY !!!!
+
                 int rowAffected = pstmtContact.executeUpdate();
 
                 //get user id
@@ -295,6 +299,10 @@ public class DBUserService implements UserService{
     public void editContact(int userId , String firstName , String lastName , String email , Integer age , Map <String, PhoneNumber> phoneNumber , Address address , String jobTitle , Company company , boolean isFavorite) {
 
     }
+
+
+    // TODO
+    //  Something doesn't work properly
 
     public void backUpContacts() {
         String path = "backUpFile" + File.separator;

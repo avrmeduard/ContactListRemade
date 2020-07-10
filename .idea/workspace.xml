@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/FileUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/FileUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594403573687</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="search method added">
+      <created>1594403745269</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1594403745269</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated">
+      <created>1594403784096</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594403784096</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -295,6 +308,7 @@
     <MESSAGE value="getContact method added" />
     <MESSAGE value="getContactById method added" />
     <MESSAGE value="add contact" />
+    <MESSAGE value="search method added" />
     <MESSAGE value="updated" />
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
@@ -307,10 +321,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594403745136">
+    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594403783946">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594403745136" />
+    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594403783946" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594315111743">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -363,10 +377,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594403773221">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594404025613">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594403773221" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594404025613" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
