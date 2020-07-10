@@ -44,7 +44,7 @@ public class FileUserService implements UserService {
 
     @Override
     public void addContact(User contact) {
-
+        contacts.add(contact);
     }
 
     @Override
