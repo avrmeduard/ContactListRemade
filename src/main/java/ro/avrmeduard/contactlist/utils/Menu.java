@@ -2,9 +2,8 @@ package ro.avrmeduard.contactlist.utils;
 
 import ro.avrmeduard.contactlist.model.User;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Menu {
 
@@ -62,7 +61,20 @@ public class Menu {
         }
     }
 
+    private static void contactsList(List<User> userList) {
+        Map <Character, List<User>> naturalOrder = userList.stream().sorted(Comparator.comparing(User::getFirstName).thenComparing(User::getLastName))
+                .collect(Collectors.groupingBy(u -> u.getFirstName().charAt(0)));
 
+        int index = 1;
+        for (Map.Entry<Character, List<User>> listEntry : naturalOrder.entrySet()) {
+            System.out.println("\n" + listEntry.getKey() + "\n" + "---------------");
+            for (User header : listEntry.getValue()) {
+                System.out.println(index++ + ". " + header.getFirstName() + " " + header.getLastName());
+            }
+            System.out.println("---------------");
+        }
+        System.out.println("Choose your actions: ");
+    }
 
 
 }
