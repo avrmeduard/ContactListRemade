@@ -76,5 +76,13 @@ public class Menu {
         System.out.println("Choose your actions: ");
     }
 
+    private static void contactsDetails(List<User> users) {
+        System.out.println("Select an index to print his contact details ");
+        int indexContacts = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println(users.get(indexContacts));
+        System.out.println("Choose your actions: ");
+    }
+
 
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
+    <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="Menu class added for printing menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,13 +284,59 @@
       <option name="project" value="LOCAL" />
       <updated>1594403784096</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="issues">
+      <created>1594404042581</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1594404042581</updated>
+    </task>
+    <task id="LOCAL-00030" summary="comment added to clarify return type">
+      <created>1594478967894</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1594478967894</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Menu class added for printing menu">
+      <created>1594479021247</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1594479021247</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Menu class added for printing menu">
+      <created>1594479286296</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1594479286296</updated>
+    </task>
+    <task id="LOCAL-00033" summary="option menu added">
+      <created>1594479549377</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594479549377</updated>
+    </task>
+    <task id="LOCAL-00034" summary="constructor added">
+      <created>1594479694965</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1594479694965</updated>
+    </task>
+    <task id="LOCAL-00035" summary="conact list added method">
+      <created>1594481054299</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1594481054299</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mysql-connector-java -  update to 8.0.16" />
-    <MESSAGE value="deleting a DBConnection package.  Connect to db from constructor when initialize it" />
-    <MESSAGE value="update delete package" />
     <MESSAGE value="update delete DB class statement" />
     <MESSAGE value="Utils Service Classes created" />
     <MESSAGE value="method to create a list of contact strings from a list of users" />
@@ -304,13 +351,18 @@
     <MESSAGE value="write to file added at the end to getContacts method." />
     <MESSAGE value="File user service class added" />
     <MESSAGE value="File user service class implements interface UserService" />
-    <MESSAGE value="constructor added" />
     <MESSAGE value="getContact method added" />
     <MESSAGE value="getContactById method added" />
     <MESSAGE value="add contact" />
     <MESSAGE value="search method added" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="issues" />
+    <MESSAGE value="comment added to clarify return type" />
+    <MESSAGE value="Menu class added for printing menu" />
+    <MESSAGE value="option menu added" />
+    <MESSAGE value="constructor added" />
+    <MESSAGE value="conact list added method" />
+    <option name="LAST_COMMIT_MESSAGE" value="conact list added method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1594402322214">
@@ -321,30 +373,30 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594403783946">
+    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594481060873">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594403783946" />
-    <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594315111743">
+    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594481060873" />
+    <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594409500896">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state width="1398" height="389" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593478903332" />
-    <state width="932" height="265" key="GridCell.Tab.0.bottom/0.22.1440.849@0.22.1440.849" timestamp="1594315111743" />
-    <state width="932" height="265" key="GridCell.Tab.0.center" timestamp="1594315111742">
+    <state width="932" height="265" key="GridCell.Tab.0.bottom/0.22.1440.849@0.22.1440.849" timestamp="1594409500896" />
+    <state width="932" height="265" key="GridCell.Tab.0.center" timestamp="1594409500895">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state width="1398" height="389" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593478903330" />
-    <state width="932" height="265" key="GridCell.Tab.0.center/0.22.1440.849@0.22.1440.849" timestamp="1594315111742" />
-    <state width="932" height="265" key="GridCell.Tab.0.left" timestamp="1594315111742">
+    <state width="932" height="265" key="GridCell.Tab.0.center/0.22.1440.849@0.22.1440.849" timestamp="1594409500895" />
+    <state width="932" height="265" key="GridCell.Tab.0.left" timestamp="1594409500894">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state width="1398" height="389" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593478903330" />
-    <state width="932" height="265" key="GridCell.Tab.0.left/0.22.1440.849@0.22.1440.849" timestamp="1594315111742" />
-    <state width="932" height="265" key="GridCell.Tab.0.right" timestamp="1594315111743">
+    <state width="932" height="265" key="GridCell.Tab.0.left/0.22.1440.849@0.22.1440.849" timestamp="1594409500894" />
+    <state width="932" height="265" key="GridCell.Tab.0.right" timestamp="1594409500895">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state width="1398" height="389" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593478903331" />
-    <state width="932" height="265" key="GridCell.Tab.0.right/0.22.1440.849@0.22.1440.849" timestamp="1594315111743" />
+    <state width="932" height="265" key="GridCell.Tab.0.right/0.22.1440.849@0.22.1440.849" timestamp="1594409500895" />
     <state width="1398" height="160" key="GridCell.Tab.1.bottom" timestamp="1593493668302">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -377,10 +429,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594404025613">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594481446280">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594404025613" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594481446280" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
