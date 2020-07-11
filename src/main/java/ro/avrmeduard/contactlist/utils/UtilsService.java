@@ -143,6 +143,7 @@ public class UtilsService {
                 e.printStackTrace(); }
         }
 
+        // convert user list of strings to a list of users
         return userList(stringUsers);
     }
 
