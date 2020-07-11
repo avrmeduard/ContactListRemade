@@ -11,6 +11,10 @@ public class Menu {
     private static Scanner scanner = new Scanner(System.in);
     private static List <User> users = new ArrayList <>();
 
+    public Menu() {
+        startPhone();
+    }
+
     public void startPhone() {
         System.out.println("Starting phone ...");
     }
