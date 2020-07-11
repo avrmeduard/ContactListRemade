@@ -25,4 +25,40 @@ public class Menu {
         System.out.println("Choose your actions: ");
     }
 
+    public void printActionMenu() {
+
+        printMenu();
+        boolean quit = false;
+        while (!quit) {
+
+            int action = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (action) {
+                case 0:
+                    System.out.println("Shutting down ...");
+                    quit = true;
+                    break;
+                case 1:
+                    contactsList(users);
+                    break;
+                case 2:
+                    contactsDetails(users);
+                    break;
+                case 3:
+                    favoriteContacts(users);
+                    break;
+                case 4:
+                    editContact();
+                    editContactMenu();
+                    break;
+                case 5:
+
+            }
+        }
+    }
+
+
+
+
 }
