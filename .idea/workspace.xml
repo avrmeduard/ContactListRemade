@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,12 +340,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594481468488</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="show fav contacts method added">
+      <created>1594663402746</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1594663402746</updated>
+    </task>
+    <task id="LOCAL-00038" summary="print menu">
+      <created>1594663540848</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1594663540848</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Utils Service Classes created" />
-    <MESSAGE value="method to create a list of contact strings from a list of users" />
     <MESSAGE value="method to write to a file from a list of strings/userContacts" />
     <MESSAGE value="utils service methods" />
     <MESSAGE value="convert string list to users list" />
@@ -369,7 +381,9 @@
     <MESSAGE value="constructor added" />
     <MESSAGE value="conact list added method" />
     <MESSAGE value="contact details method added" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact details method added" />
+    <MESSAGE value="show fav contacts method added" />
+    <MESSAGE value="print menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="print menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1594402322214">
@@ -380,10 +394,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594663401922">
+    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594663540688">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594663401922" />
+    <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594663540688" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594409500896">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -436,10 +450,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594663529991">
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594663794192">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594663529991" />
+    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594663794192" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
       <screen x="0" y="22" width="1440" height="849" />
     </state>

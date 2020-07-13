@@ -37,28 +37,33 @@ public class Menu {
             int action = scanner.nextInt();
             scanner.nextLine();
 
-            switch (action) {
-                case 0:
-                    System.out.println("Shutting down ...");
-                    quit = true;
-                    break;
-                case 1:
-                    contactsList(users);
-                    break;
-                case 2:
-                    contactsDetails(users);
-                    break;
-                case 3:
-                    favoriteContacts(users);
-                    break;
-                case 4:
-                    editContact();
-                    editContactMenu();
-                    break;
-                case 5:
+            do {
+                switch (action) {
+                    case 0:
+                        System.out.println("Shutting down ...");
+                        quit = true;
+                        break;
+                    case 1:
+                        contactsList(users);
+                        break;
+                    case 2:
+                        contactsDetails(users);
+                        break;
+                    case 3:
+                        favoriteContacts(users);
+                        break;
+                    case 4:
+                        editContact();
+                        break;
+                    case 5:
 
-            }
+                }
+            } while (scanner.hasNextInt());
+
         }
+    }
+
+    private void editContact() {
     }
 
     private static void contactsList(List<User> userList) {
