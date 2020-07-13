@@ -1,4 +1,4 @@
-package ro.avrmeduard.contactlist.utils;
+package ro.avrmeduard.contactlist;
 
 import ro.avrmeduard.contactlist.model.User;
 
@@ -81,6 +81,12 @@ public class Menu {
         int indexContacts = scanner.nextInt();
         scanner.nextLine();
         System.out.println(users.get(indexContacts));
+        System.out.println("Choose your actions: ");
+    }
+
+    private static void favoriteContacts(List<User> userList) {
+        System.out.println("Favorite contacts : ");
+        userList.stream().filter(User::isFavorite).map(u -> u.getFirstName() + " " + u.getLastName()).forEach(System.out::println);
         System.out.println("Choose your actions: ");
     }
 
