@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="PRESERVE_MERGES" value="true" />
+    <option name="ONTO" value="refs/remotes/origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -49,7 +53,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="testing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +95,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -465,9 +473,10 @@
     </state>
     <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594663540688" />
     <state x="260" y="23" width="1025" height="804" key="CommitChangelistDialog2/0.23.1440.840@0.23.1440.840" timestamp="1595036839185" />
-    <state x="197" y="78" key="DiffContextDialog" timestamp="1595036371218">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="197" y="59" width="1152" height="720" key="DiffContextDialog" timestamp="1595038844491">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="197" y="59" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1595038844491" />
     <state x="197" y="78" key="DiffContextDialog/0.23.1440.840@0.23.1440.840" timestamp="1595036371218" />
     <state width="1440" height="223" key="GridCell.Tab.0.bottom" timestamp="1595037058948">
       <screen x="0" y="23" width="1440" height="840" />
@@ -523,14 +532,15 @@
     <state x="513" y="124" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1595026954887" />
     <state x="208" y="28" key="SettingsEditor/0.22.1440.849@0.22.1440.849" timestamp="1592583751988" />
     <state x="540" y="40" width="900" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1595029814359" />
-    <state width="500" height="411" key="SwitcherDM" timestamp="1595037753062">
+    <state width="500" height="411" key="SwitcherDM" timestamp="1595044842790">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="500" height="411" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1595037753062" />
+    <state width="500" height="411" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1595044842790" />
     <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1595030105782" />
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1595036814388">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1595038878218">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595038878217" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.22.1440.849@0.22.1440.849" timestamp="1594313857217" />
     <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.840@0.23.1440.840" timestamp="1595036814388" />
     <state width="720" height="424" key="XDebugger.FullValuePopup" timestamp="1593493583325">
@@ -541,9 +551,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595036717017">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="509" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595045257526">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="509" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1595045257526" />
     <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594663794192" />
     <state x="509" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.840@0.23.1440.840" timestamp="1595036717017" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1595031381043" />
@@ -551,18 +562,23 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="421" y="94" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595027916017" />
-    <state x="469" y="238" key="git4idea.merge.GitMergeDialog" timestamp="1595036790898">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="469" y="230" key="git4idea.merge.GitMergeDialog" timestamp="1595038868804">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="469" y="230" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1595038868804" />
     <state x="469" y="238" key="git4idea.merge.GitMergeDialog/0.23.1440.840@0.23.1440.840" timestamp="1595036790898" />
+    <state x="502" y="318" key="git4idea.rebase.GitRebaseDialog" timestamp="1595038895952">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="502" y="318" key="git4idea.rebase.GitRebaseDialog/0.0.1440.900@0.0.1440.900" timestamp="1595038895952" />
     <state x="708" y="320" width="555" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595023561075">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="708" y="320" width="555" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1595023561075" />
-    <state x="458" y="23" width="670" height="706" key="search.everywhere.popup" timestamp="1595034930546">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="458" y="3" width="670" height="737" key="search.everywhere.popup" timestamp="1595041464784">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="3" width="670" height="737" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595025266796" />
+    <state x="458" y="3" width="670" height="737" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595041464784" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup/0.22.1440.849@0.22.1440.849" timestamp="1592821904711" />
     <state x="458" y="23" width="670" height="706" key="search.everywhere.popup/0.23.1440.840@0.23.1440.840" timestamp="1595034930546" />
     <state x="458" y="23" width="670" height="737" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1595031373852" />
