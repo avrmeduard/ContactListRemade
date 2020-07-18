@@ -29,4 +29,4 @@ target/classes/ro/avrmeduard/contactlist/service/FileUserService.class
 target/classes/ro/avrmeduard/contactlist/utils/
 target/generated-sources/
 
-*.applicationProperties
+src/main/resources/applicationProperties
