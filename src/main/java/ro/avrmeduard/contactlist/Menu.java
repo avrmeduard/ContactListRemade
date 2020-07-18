@@ -10,12 +10,12 @@ public class Menu {
 
     private UserService userService;
 
-    private static Scanner scanner = new Scanner(System.in);
     private static List <User> users = new ArrayList <>();
 
     public Menu(UserService userService) {
         this.userService = userService;
     }
+
 
     public void startPhone() {
         System.out.println("Starting phone ...");
@@ -39,8 +39,8 @@ public class Menu {
         boolean quit = false;
         while (!quit) {
 
-            int action = scanner.nextInt();
-            scanner.nextLine();
+            int action = Main.scanner.nextInt();
+            Main.scanner.nextLine();
 
             do {
                 switch (action) {
@@ -63,7 +63,7 @@ public class Menu {
                     case 5:
 
                 }
-            } while (scanner.hasNextInt());
+            } while (Main.scanner.hasNextInt());
 
         }
     }
@@ -88,8 +88,8 @@ public class Menu {
 
     private static void contactsDetails(List<User> users) {
         System.out.println("Select an index to print his contact details ");
-        int indexContacts = scanner.nextInt();
-        scanner.nextLine();
+        int indexContacts = Main.scanner.nextInt();
+        Main.scanner.nextLine();
         System.out.println(users.get(indexContacts));
         System.out.println("Choose your actions: ");
     }
