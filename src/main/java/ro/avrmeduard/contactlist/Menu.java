@@ -21,14 +21,22 @@ public class Menu {
         System.out.println("Starting phone ...");
     }
 
+
+    // get contact
+    // get contact by id
+    // add contact
+    // edit contact
+    // search
     public void printMenu() {
-        System.out.println("\nAvailable actions:\npress");
-        System.out.println("0 - to shutdown\n" +
-                "1 - to print contacts\n" +
-                "2 - to print contacts details\n" +
-                "3 - to print favorite list\n" +
-                "4 - to print a list of available actions.");
-        System.out.println("Choose your actions: ");
+        System.out.println("\nAvailable actions :\n");
+
+        System.out.println("1 - Show contacts\n" +
+                           "2 - Add contact\n" +
+                           "3 - Edit contact\n" +
+                           "3 - Search\n" +
+                           "3 - Favorite contacts\n" +
+                           "4 - Favorite contacts.");
+        System.out.print("Choose your actions :  ");
     }
 
     public void printActionMenu() {
