@@ -1,17 +1,20 @@
 package ro.avrmeduard.contactlist;
 
 import ro.avrmeduard.contactlist.model.User;
+import ro.avrmeduard.contactlist.service.UserService;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Menu {
 
+    private UserService userService;
+
     private static Scanner scanner = new Scanner(System.in);
     private static List <User> users = new ArrayList <>();
 
-    public Menu() {
-        startPhone();
+    public Menu(UserService userService) {
+        this.userService = userService;
     }
 
     public void startPhone() {
@@ -30,7 +33,9 @@ public class Menu {
 
     public void printActionMenu() {
 
+        startPhone();
         printMenu();
+
         boolean quit = false;
         while (!quit) {
 
