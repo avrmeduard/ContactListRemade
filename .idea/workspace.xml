@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
+    <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="print menu">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contacts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/FileUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/FileUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationProperties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationProperties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationProperties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationProperties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,31 +58,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1dXrcBpT0ZAm5Opau6lDmc65zX6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -357,6 +379,18 @@
     <option name="localTasksCounter" value="39" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="method to write to a file from a list of strings/userContacts" />
     <MESSAGE value="utils service methods" />
@@ -386,38 +420,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="print menu" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="43" key="#Project_Structure" timestamp="1595029505928">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1595029505928" />
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1594402322214">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.22.1440.849@0.22.1440.849" timestamp="1594402322214" />
+    <state x="406" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1595022921577">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="406" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1595022921577" />
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592820091133">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="538" y="22" key="CommitChangelistDialog2" timestamp="1594663540688">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state x="260" y="23" width="1025" height="804" key="CommitChangelistDialog2" timestamp="1595034896938">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594663540688" />
-    <state width="932" height="265" key="GridCell.Tab.0.bottom" timestamp="1594409500896">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state x="260" y="23" width="1025" height="804" key="CommitChangelistDialog2/0.23.1440.840@0.23.1440.840" timestamp="1595034896938" />
+    <state x="197" y="78" key="DiffContextDialog" timestamp="1595034524220">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1398" height="389" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593478903332" />
+    <state x="197" y="78" key="DiffContextDialog/0.23.1440.840@0.23.1440.840" timestamp="1595034524220" />
+    <state width="1440" height="119" key="GridCell.Tab.0.bottom" timestamp="1595034352163">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="1440" height="149" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595023086687" />
     <state width="932" height="265" key="GridCell.Tab.0.bottom/0.22.1440.849@0.22.1440.849" timestamp="1594409500896" />
-    <state width="932" height="265" key="GridCell.Tab.0.center" timestamp="1594409500895">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state width="1440" height="119" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1595034352163" />
+    <state width="1440" height="433" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595031466832" />
+    <state width="1440" height="119" key="GridCell.Tab.0.center" timestamp="1595034352162">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1398" height="389" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593478903330" />
+    <state width="1440" height="149" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595023086686" />
     <state width="932" height="265" key="GridCell.Tab.0.center/0.22.1440.849@0.22.1440.849" timestamp="1594409500895" />
-    <state width="932" height="265" key="GridCell.Tab.0.left" timestamp="1594409500894">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state width="1440" height="119" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1595034352162" />
+    <state width="1440" height="433" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595031466831" />
+    <state width="1440" height="119" key="GridCell.Tab.0.left" timestamp="1595034352161">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1398" height="389" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593478903330" />
+    <state width="1440" height="149" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595023086685" />
     <state width="932" height="265" key="GridCell.Tab.0.left/0.22.1440.849@0.22.1440.849" timestamp="1594409500894" />
-    <state width="932" height="265" key="GridCell.Tab.0.right" timestamp="1594409500895">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state width="1440" height="119" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1595034352161" />
+    <state width="1440" height="433" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595031466830" />
+    <state width="1440" height="119" key="GridCell.Tab.0.right" timestamp="1595034352162">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
-    <state width="1398" height="389" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593478903331" />
+    <state width="1440" height="149" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595023086686" />
     <state width="932" height="265" key="GridCell.Tab.0.right/0.22.1440.849@0.22.1440.849" timestamp="1594409500895" />
+    <state width="1440" height="119" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1595034352162" />
+    <state width="1440" height="433" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595031466831" />
     <state width="1398" height="160" key="GridCell.Tab.1.bottom" timestamp="1593493668302">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -434,10 +489,17 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state width="1398" height="160" key="GridCell.Tab.1.right/0.22.1440.849@0.22.1440.849" timestamp="1593493668301" />
-    <state x="208" y="28" key="SettingsEditor" timestamp="1592583751988">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state x="540" y="40" width="900" height="722" key="SettingsEditor" timestamp="1595029814359">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="513" y="124" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1595026954887" />
     <state x="208" y="28" key="SettingsEditor/0.22.1440.849@0.22.1440.849" timestamp="1592583751988" />
+    <state x="540" y="40" width="900" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1595029814359" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1595030105782">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="500" height="411" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1595025250216" />
+    <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1595030105782" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1594313857217">
       <screen x="0" y="22" width="1440" height="849" />
     </state>
@@ -450,13 +512,26 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594663794192">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state x="509" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595034207999">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594663794192" />
-    <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1592821904711">
-      <screen x="0" y="22" width="1440" height="849" />
+    <state x="509" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.840@0.23.1440.840" timestamp="1595034207999" />
+    <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1595031381043" />
+    <state x="421" y="94" width="598" height="735" key="find.popup" timestamp="1595027916017">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="421" y="94" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595027916017" />
+    <state x="708" y="320" width="555" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595023561075">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="708" y="320" width="555" height="270" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1595023561075" />
+    <state x="458" y="23" width="670" height="706" key="search.everywhere.popup" timestamp="1595034930546">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state x="458" y="3" width="670" height="737" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595025266796" />
     <state x="385" y="195" width="670" height="676" key="search.everywhere.popup/0.22.1440.849@0.22.1440.849" timestamp="1592821904711" />
+    <state x="458" y="23" width="670" height="706" key="search.everywhere.popup/0.23.1440.840@0.23.1440.840" timestamp="1595034930546" />
+    <state x="458" y="23" width="670" height="737" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1595031373852" />
   </component>
 </project>
