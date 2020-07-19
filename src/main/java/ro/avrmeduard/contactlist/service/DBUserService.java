@@ -58,7 +58,7 @@ public class DBUserService implements UserService{
             ResultSet resultSet = null;
             try {
                 String sqlGetContacts = "SELECT u.user_id, u.first_name, u.last_name, u.email, u.age, \n" +
-                                        "       ph.place, ph.country_code, ph.number,\n" +
+                                        "       ph.place, ph.country_code, ph.nr,\n" +
                                         "       a.street_name, a.street_number, a.apartment_number, a.floor, a.zip_code, a.city, a.country,\n" +
                                         "       u.job_title, co.company_name, a_w.street_name, a_w.street_number, a_w.apartment_number, a_w.floor, a_w.zip_code, a_w.city, a_w.country,\n" +
                                         "       u.is_favorite\n" +
@@ -81,7 +81,7 @@ public class DBUserService implements UserService{
 
                     HashMap<String, PhoneNumber> phoneNumberHashMap = new HashMap <>();
                     phoneNumberHashMap.put(resultSet.getString("place"), new PhoneNumber(
-                                           resultSet.getString("country_code"),resultSet.getString("number")));
+                                           resultSet.getString("country_code"),resultSet.getString("nr")));
 
                     Address address = new Address(
                                  resultSet.getString("street_name"), resultSet.getInt("street_number"),
@@ -125,7 +125,7 @@ public class DBUserService implements UserService{
             ResultSet resultSet = null;
             try {
                 String sqlGetContactsById = "SELECT u.user_id, u.first_name, u.last_name, u.email, u.age, " +
-                        "ph.place, ph.country_code, ph.number, " +
+                        "ph.place, ph.country_code, ph.nr, " +
                         "a.street_name, a.street_number, a.apartment_number, a.floor, a.zip_code, a.city, a.country, " +
                         "u.job_title, " +
                         "co.company_name, a_w.street_name, a_w.street_number, a_w.apartment_number, a_w.floor, a_w.zip_code, a_w.city, a_w.country, " +
@@ -150,7 +150,7 @@ public class DBUserService implements UserService{
 
                     HashMap<String, PhoneNumber> phoneNumberHashMap = new HashMap <>();
                     phoneNumberHashMap.put(resultSet.getString("place"), new PhoneNumber(
-                            resultSet.getString("country_code"),resultSet.getString("number")));
+                            resultSet.getString("country_code"),resultSet.getString("nr")));
 
                     Address address = new Address(
                             resultSet.getString("street_name"), resultSet.getInt("street_number"),
@@ -225,17 +225,19 @@ public class DBUserService implements UserService{
                 if (rsId.next()) userId = rsId.getInt(1);
 
                 if (rowAffected == 1) {
-                    String sqlPhone = "INSER INTO phonenumbers(user_id, country_code, number, place)"
+                    String sqlPhone = "INSER INTO phonenumbers(id, place, country_code, nr)"
                             + "VALUES (?, ?, ?, ?)";
                     pstmtPhone = connection.prepareStatement(sqlPhone);
 
+                    pstmtPhone.setInt(1 , userId);
                     // insert phone number
                     for (Map.Entry <String, PhoneNumber> entry : user.getPhoneNumbers().entrySet()) {
-                        pstmtPhone.setInt(1 , userId);
 
-                        pstmtPhone.setString(2 , entry.getValue().getCountryCode());
-                        pstmtPhone.setString(3 , entry.getValue().getNumber());
-                        pstmtPhone.setString(4 , entry.getKey());
+
+                        pstmtPhone.setString(2 , entry.getKey());
+                        pstmtPhone.setString(3 , entry.getValue().getCountryCode());
+                        pstmtPhone.setString(4 , entry.getValue().getNumber());
+
 
                         pstmtPhone.executeUpdate();
                     }
