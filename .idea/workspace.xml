@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="548eeb9d-eba4-4eae-b0a8-135fc690128f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/DBUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/avrmeduard/contactlist/service/DBUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/avrmeduard/contactlist/service/DBUserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595045318156</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update">
+      <created>1595190225008</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1595190225008</updated>
+    </task>
+    <task id="LOCAL-00046" summary="col 'number' changed to 'nr' from phonenumbers table - sqlQuery">
+      <created>1595190361027</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1595190361027</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +451,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="utils service methods" />
     <MESSAGE value="convert string list to users list" />
     <MESSAGE value="read from a file text and return it a user list" />
     <MESSAGE value="add contact statement to create new user in db" />
@@ -466,7 +475,8 @@
     <MESSAGE value="print menu" />
     <MESSAGE value="print menu edited" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="col 'number' changed to 'nr' from phonenumbers table - sqlQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="col 'number' changed to 'nr' from phonenumbers table - sqlQuery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="43" key="#Project_Structure" timestamp="1595029505928">
@@ -485,10 +495,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="458" y="200" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.849@0.22.1440.849" timestamp="1592820091133" />
-    <state x="260" y="0" width="1025" height="804" key="CommitChangelistDialog2" timestamp="1595045318026">
+    <state x="260" y="0" width="1025" height="804" key="CommitChangelistDialog2" timestamp="1595190360881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595045318026" />
+    <state x="260" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595190360881" />
     <state x="538" y="22" key="CommitChangelistDialog2/0.22.1440.849@0.22.1440.849" timestamp="1594663540688" />
     <state x="260" y="23" width="1025" height="804" key="CommitChangelistDialog2/0.23.1440.840@0.23.1440.840" timestamp="1595036839185" />
     <state x="197" y="59" width="1152" height="720" key="DiffContextDialog" timestamp="1595038844491">
@@ -555,10 +565,10 @@
     </state>
     <state width="500" height="411" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1595044842790" />
     <state width="500" height="400" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1595030105782" />
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1595045321180">
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1595190375742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595045321180" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595190375742" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.22.1440.849@0.22.1440.849" timestamp="1594313857217" />
     <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.840@0.23.1440.840" timestamp="1595036814388" />
     <state width="720" height="424" key="XDebugger.FullValuePopup" timestamp="1593493583325">
@@ -569,10 +579,10 @@
       <screen x="0" y="22" width="1440" height="849" />
     </state>
     <state x="515" y="231" key="chooseDestDirectoryDialog/0.22.1440.849@0.22.1440.849" timestamp="1592582487116" />
-    <state x="509" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595045257526">
+    <state x="509" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595190411732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="509" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1595045257526" />
+    <state x="509" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1595190411732" />
     <state x="509" y="370" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.849@0.22.1440.849" timestamp="1594663794192" />
     <state x="509" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.840@0.23.1440.840" timestamp="1595036717017" />
     <state x="509" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1595031381043" />

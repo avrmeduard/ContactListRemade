@@ -57,7 +57,7 @@ public class Menu {
                         quit = true;
                         break;
                     case 1:
-                        contactsList(users);
+                        userService.getContacts();
                         break;
                     case 2:
                         contactsDetails(users);
