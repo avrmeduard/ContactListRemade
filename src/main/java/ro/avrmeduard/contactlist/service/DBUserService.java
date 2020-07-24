@@ -4,7 +4,6 @@ import ro.avrmeduard.contactlist.model.Address;
 import ro.avrmeduard.contactlist.model.Company;
 import ro.avrmeduard.contactlist.model.PhoneNumber;
 import ro.avrmeduard.contactlist.model.User;
-import ro.avrmeduard.contactlist.utils.UtilsService;
 
 import java.io.File;
 import java.io.IOException;
@@ -110,9 +109,6 @@ public class DBUserService implements UserService{
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-        // write to file all contacts from List
-        UtilsService.writeToFile(UtilsService.contactToString(contacts));
         return contacts;
     }
 
